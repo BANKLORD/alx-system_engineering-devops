@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# This is a script that print Best School 10 times
-
+#Prints "Best School" 10 times using a while loop
 i=0
-while [ $i -lt 10 ]; do
+while [ $i -lt 10 ]
+do
     echo "Best School"
-    ((i++))
+    i=$((i+1))
 done
