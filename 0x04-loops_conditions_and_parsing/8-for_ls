@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-#scrpit list in dir (clearn list)
-
-for indir in *; do
-        echo "${indir#*-}"
-done
